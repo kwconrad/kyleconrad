@@ -15,5 +15,19 @@ div[role="group"][tabindex] {
   height: 100%;
 }
 
+.text-gradient-util {
+  background: radial-gradient(
+      ellipse at 5% 5%,
+      #f0acad 0%,
+      rgba(240, 172, 173, 0) 75%
+    ),
+    radial-gradient(ellipse at 95% 5%, #f8ae4b 0%, rgba(248, 174, 75, 0) 75%),
+    radial-gradient(ellipse at 95% 95%, #dbb048 -15%, rgba(219, 176, 72, 0) 75%),
+    radial-gradient(ellipse at 5% 95%, #c284e9 50%, rgba(194, 132, 233, 0) 75%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 @tailwind components;
 @tailwind utilities;

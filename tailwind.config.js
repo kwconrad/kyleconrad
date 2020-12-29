@@ -9,24 +9,16 @@ range(0, 10, 0.25).forEach(key => {
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // false, 'media', or 'class'
   theme: {
     colors: {
       black: "#272729",
       white: "#ffffff",
       transparent: "transparent",
     },
-    container: theme => ({
-      padding: {
-        default: theme("spacing.8"),
-        xs: theme("spacing.2"),
-        sm: theme("spacing.2"),
-        md: theme("spacing.6"),
-        lg: theme("spacing.6"),
-        xl: theme("spacing.8"),
-      },
+    container: {
       center: true,
-    }),
+    },
     fontFamily: {
       headings: ["Gothic A1", ...defaultTheme.fontFamily.sans],
       sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
@@ -34,20 +26,20 @@ module.exports = {
     fontSize: {
       16: "16px",
       32: "32px",
-      48: "48px",
-      64: "64px",
+      40: "40px",
+      56: "56px",
     },
     lineHeight: {
       24: "24px",
       40: "40px",
-      64: "64px",
-      80: "80px",
+      72: "72px",
     },
     maxWidth: spacing,
     spacing: spacing,
     extend: {},
   },
   variants: {
+    container: ["responsive"],
     fontSize: ["responsive"],
     extend: {},
   },

@@ -28,6 +28,7 @@
     "prettier": "2.2.1",
     "stylelint-config-recommended": "^3.0.0"
   },
+  "browserslist": ["defaults"],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
