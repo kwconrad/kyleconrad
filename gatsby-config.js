@@ -24,14 +24,14 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#272729`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.svg`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Gothic+A1\:400,700`,
+          `Gothic+A1\:900`,
           `open sans\:400,400i,700`, // you can also specify font weights and styles
         ],
         display: "swap",
