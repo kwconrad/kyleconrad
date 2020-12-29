@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: `Kyle Conrad`,
     description: `Designer, developer, storyteller. I'm Kyle. I solve problems and design solutions to help businesses grow.`,
-    author: `Kyle`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,18 +17,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Kyle Conrad Personal Website`,
+        short_name: `kyle-conrad-personal`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#272729`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Gothic+A1\:400,700`,
+          `open sans\:400,400i,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
+      },
+    },
   ],
 };
