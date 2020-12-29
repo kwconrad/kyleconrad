@@ -6,6 +6,7 @@
   "author": "Kyle Conrad",
   "dependencies": {
     "autoprefixer": "^10.1.0",
+    "framer-motion": "^3.1.1",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -28,7 +29,9 @@
     "prettier": "2.2.1",
     "stylelint-config-recommended": "^3.0.0"
   },
-  "browserslist": ["defaults"],
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
