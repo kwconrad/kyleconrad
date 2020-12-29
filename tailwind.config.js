@@ -14,6 +14,7 @@ module.exports = {
     colors: {
       black: "#272729",
       white: "#ffffff",
+      transparent: "transparent",
     },
     container: theme => ({
       padding: {
