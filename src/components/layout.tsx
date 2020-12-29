@@ -8,9 +8,11 @@ interface LayoutProps {
 export default function Layout(props: LayoutProps) {
   const { children } = props;
   return (
-    <div>
-      <main>{children}</main>
-      <footer>© {new Date().getFullYear()} Kyle Conrad</footer>
+    <div className="container mx-auto h-full flex flex-col">
+      <main className="flex-1">{children}</main>
+      <footer className="p-2 w-full mt-auto flex justify-center">
+        <span>© {new Date().getFullYear()} Kyle Conrad</span>
+      </footer>
     </div>
   );
 }
