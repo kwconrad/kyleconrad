@@ -28,10 +28,11 @@ export default function SEO({
   title,
 }: Props) {
   const { site } = useStaticQuery<QueryData>(graphql`
-    query SiteTitleQuery {
+    query DefaultSEOQuery {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
