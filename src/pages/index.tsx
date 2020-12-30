@@ -27,7 +27,7 @@ export default function IndexPage() {
             Hi, I'm Kyle. I solve problems and design solutions to help
             businesses grow.
           </motion.h1>
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center mt-2 sm:mt-0 sm:justify-start space-x-2">
             <a
               href={DribbbleURL}
               target="_blank"
