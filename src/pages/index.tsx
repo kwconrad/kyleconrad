@@ -9,7 +9,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const DribbbleURL = "https://dribbble.com/kwconrad";
-const GithubURL = "https://github.com/conraddev";
+const GithubURL = "https://github.com/kwconrad";
 const LinkedInURL = "https://linkedin.com/in/kylewconrad/";
 
 export default function IndexPage() {
